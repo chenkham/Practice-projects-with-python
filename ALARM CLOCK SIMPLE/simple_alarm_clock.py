@@ -18,5 +18,5 @@ while True:
             if alarm_minute==current_minute:
                 if alarm_second==current_second:
                     print("wakey wakey!")
-                    playsound("beep.mp3")
+                    playsound("../count down timer/beep.mp3")
                     break
